@@ -28,7 +28,7 @@ const subscriberState = {
 const subscriberReducer = (state = subscriberState, action) => {
   switch (action.type) {
     case ADD_SUBSCRIBER:
-      return {=8
+      return {
         ...state,
         subscribers: state.subscribers + 1,
       };

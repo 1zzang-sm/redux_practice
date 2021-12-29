@@ -1,0 +1,1 @@
+export const ABC_COUNT = 'ABC_COUNT'
